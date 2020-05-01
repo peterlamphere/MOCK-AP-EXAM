@@ -17,6 +17,8 @@ class Main {
     for (int i = 0; i < 200; i++) 
       System.out.println("Is "+ i + " a self divisor?" + isSelfDivisor(i));
       
+    
+    // Client test code to test the case provided in the problem
     Time [][] flights = {
         {new Time(11,30,"AM"), new Time (12,15,"PM")},
         {new Time(1,15,"PM"), new Time (3,45,"PM")},
